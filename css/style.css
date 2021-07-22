@@ -1,0 +1,24 @@
+body{
+    font: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar {
+    background-color: blueviolet;
+}
+.quem-somos{
+    background-color: chartreuse;
+    color: black;
+}
+.margin{
+    /*margin-top: 30px;*/ /*cria uma pequena margem pra cima*/
+    padding-top: 50px; /*estende a margem do ponto de inicio do texto pra cima*/
+    padding-bottom: 50px; /*aumenta a margem pra baixo*/
+}
+.parceiros{
+    background-color: #64d117;
+}
+
+.bg-footer{
+    background-color: #366476;
+    color: wheat;
+}

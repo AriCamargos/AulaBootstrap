@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--reconhece palavras com acento tbm-->
+      <title>Minha Página</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> <!--linkar o bootstrapp-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!--criação do meu próprio css, criei a pasta css antes-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">  <!-- criando uma barra de navegação expand (grande) light (clara)--->
+        <a class="navbar-brand" href="#">
+        <img src="img/logo-white.png" height="80" width="220" alt="">
+            </a> <!--código copiado do bootstrap navbar-->
+            <div class="collapse navbar-collapse"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    
+                </ul>
+            </div>
+    </nav> 
+
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin "> <!--se for usar um fundo branco pode deixar apenas container, se for usar o fluid deixa a página toda daquela cor-->
+            <h3>Quem Somos</h3>
+            <img src="img/time.jpg" class="rounded-circle" width="400" height="400">
+            <h4>Somos um time comprometido em te ajudar a fazer sua marca de roupas sair do papel e conquistar não só o mercado, mas o mundo!</h4>
+        </div>
+    </section>
+    
+    <section id="parceiros">
+        <div class="container-fluid parceiros text-center margin ">
+            <h3>Parceiros</h3>
+            <div class="container">
+                <div class="row"> <!--inicia a coluna sempre container e  o row-->
+                    <div class="col-lg-4">
+                        <img src="img/bradesco.png" width="100%" alt="">
+                    </div>      
+                    <div class="col-lg-4">
+                        <img src="img/logo-white.png" width="100%" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/c-e-a-logo.png" width="50%" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section id="servicos">
+        <div class=" container-fluid text-center margin servicos">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4"> <!--o numero 4 referente a 4 colunas 6 a 6 colunas etc-->
+                    <img src="img/img14.jpg" width="100%" alt="">
+                        <p> Iniciamos com o estudo de coleção do que está em alta no mercado de moda nacional e internacional com de estilistas com experiência. </p>
+                    
+                    </div>
+                    <div class="col-lg-4"> <!--o numero 4 referente a 4 colunas 6 a 6 colunas etc-->
+                    <img src="img/img moldes.jpg" width="100%" alt="">
+                        <p> Realizamos o molde das peças com as graduações (tamanhos) necessários para a comercialização. A peça modelo é feita até sair exatamente o idealizado. </p>
+                   
+                    </div>
+                    <div class="col-lg-4"> <!--o numero 4 referente a 4 colunas 6 a 6 colunas etc-->
+                        <img src="img/costureira.jpg" width="100%" alt="">
+                        <p> Nossa facção recebe o corte da peça e profissionais capacitadas deixam seu produto pronto e também embalado.  </p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <footer class=" container-fluid text-center bg-footer margin">
+        @2021 Copyright Desenvolvido por Ari Camargos
+    </footer>
+
+
+</body>
+</html>
